@@ -4,3 +4,6 @@ php:
   - 5.3
   - 5.4
   - 5.5
+
+# Use custom AllTests.php script to invoke phpunit
+script: php tests/AllTests.php
